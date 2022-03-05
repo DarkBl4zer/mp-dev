@@ -1,0 +1,111 @@
+.top10{padding-top: 25px;}
+th, td{
+    vertical-align: middle !important;
+}
+.hide{
+    display: none;
+}
+body{
+    font-family: 'Roboto Light', arial;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #003e65;
+    border-color: #003e65;
+}
+.dataTable thead{
+    background-color: #828282;
+    color: white;
+}
+.dataTable th{
+    font-family: Oswald,sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 100 !important;
+    text-align: left !important;
+}
+table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:after{
+    color: darkorange;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dataTables_filter, .dataTables_paginate{
+    text-align: left !important;
+}
+.pagination{
+    position: absolute;
+}
+.dataTables_filter label{
+    color: #bbb;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #003E65;
+    color: #F0F0F0;
+    position: relative;
+    top: 0px;
+    padding-left: 7px;
+    padding-right: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.dataTables_filter input{
+    border-radius: 20px;
+    background: #f4f4f4 none repeat scroll 0 0;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 400px !important;
+}
+.dataTables_length label{
+    background-color: #828282;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.dataTables_length select{
+    font-size: 13px;
+}
+.paginate_button a{
+    border-radius: 3px;
+    font-size: 13px;
+}
+.page-item.active .page-link {
+    background-color: #003e65;
+    border-color: #003e65;
+}
+.page-item.disabled .page-link{
+    background-color: #828282;
+    border-color: #828282;
+    color: white;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.page-link{
+    color: #828282;
+}
+.dataTables_info{
+    padding-top: 0px !important;
+    background-color: #828282;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 13px;
+    color: white;
+    padding: 4px !important;
+}
+.btn-group{
+    display: none !important;
+}
+.tabla_buscar{
+    padding: 5px !important;
+}
+.tabla_buscar input{
+    font-family: 'Roboto Light', arial !important;
+}
+thead, tfoot {
+    display: table-header-group;
+}
