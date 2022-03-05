@@ -1,0 +1,2 @@
+[2020-03-04 19:08:45] local.ERROR: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ (SQL: SHOW FULL TABLES WHERE table_type = 'BASE TABLE') null 
